@@ -32,7 +32,7 @@
   ```
 - To get the updated/latest value (**SecondComponent**)
   ```javascript
-  this.signalsDetailsData = this.customService.childsValue.subscribe({
+  this.data = this.customService.childsValue.subscribe({
     next: (response: any) => this.handleUpdatedValueSuccess(response),
   });
   ```
